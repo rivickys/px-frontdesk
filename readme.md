@@ -52,7 +52,7 @@ local function FrontDesk2()
         coords = coords,
         street = GetStreetAndZone(coords),
         heading = GetPlayerHeading(),
-        jobs = { 'leo', 'police' }
+        jobs = { 'doj' }
     }
 
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
@@ -70,7 +70,7 @@ local function FrontDesk3()
         coords = coords,
         street = GetStreetAndZone(coords),
         heading = GetPlayerHeading(),
-        jobs = { 'leo', 'police' }
+        jobs = { 'ems', 'ambulance' }
     }
 
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
@@ -88,7 +88,7 @@ local function FrontDesk4()
         coords = coords,
         street = GetStreetAndZone(coords),
         heading = GetPlayerHeading(),
-        jobs = { 'leo', 'police' }
+        jobs = { 'fireman', 'firefighter' }
     }
 
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
