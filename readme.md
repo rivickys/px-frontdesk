@@ -1,6 +1,9 @@
 # DEPEDENCY
 - qb-core
 - ps-dispatch V2
+optional
+- qb-target
+- ox_target
 
 
 # 1.
